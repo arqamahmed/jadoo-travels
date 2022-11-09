@@ -1,0 +1,14 @@
+.header-contianer {
+  background-image: url(../images/main-banner.png);
+  min-height: 98vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.nav-content {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-item {
+  padding: 20px;
+}

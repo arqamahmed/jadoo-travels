@@ -89,3 +89,52 @@
 .button-play:hover {
   background: #cc7362;
 }
+/* body part */
+.section-one-heading {
+  font-size: 3.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #181e4b;
+}
+
+.offer-images {
+  height: 75px;
+  width: 100px !important;
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: white;
+  max-height: 200px;
+}
+
+.we-offer-container .item:hover .offer-effect {
+  background: #ec5f5a;
+  opacity: 1;
+
+  transition: 0.3s ease;
+}
+.we-offer-container .item .offer-effect {
+  height: 80px;
+  width: 80px;
+  border-radius: 20px 0 20px 0;
+  position: absolute;
+  background: #ec5f5a;
+  opacity: 0;
+  bottom: 1px;
+  left: 10px;
+  z-index: 2;
+}
+.offer-para {
+  font-size: large;
+  font-weight: lighter;
+  color: grey;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

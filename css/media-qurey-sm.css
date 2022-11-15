@@ -17,6 +17,11 @@
   .nav-button {
     text-align: center;
   }
+  .section-one-heading {
+    font-size: 2.2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #181e4b;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {

@@ -90,6 +90,9 @@
   background: #cc7362;
 }
 /* body part */
+.text-secondary {
+  color: #5e6282 !important;
+}
 .section-one-heading {
   font-size: 3.2rem;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -98,14 +101,23 @@
 
 .offer-images {
   height: 75px;
-  width: 100px !important;
+  width: 70px !important;
+}
+.item {
+  height: 440px;
+  margin-left: 6px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.first-div {
+  margin-left: 1.5vw;
 }
 
 .card-body {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 1rem 1rem;
+  border-radius: 20px;
+  padding: 9rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,28 +125,46 @@
   text-align: center;
   background: white;
   max-height: 200px;
+  cursor: pointer;
+}
+.card-body:hover {
+  box-shadow: 0px 100px 80px rgb(0 0 0 / 2%),
+    0px 64.8148px 46.8519px rgb(0 0 0 / 2%),
+    0px 38.5185px 25.4815px rgb(0 0 0 / 1%), 0px 20px 13px rgb(0 0 0 / 1%),
+    0px 8.14815px 6.51852px rgb(0 0 0 / 1%),
+    0px 1.85185px 3.14815px rgb(0 0 0 / 0%);
 }
 
 .we-offer-container .item:hover .offer-effect {
   background: #ec5f5a;
   opacity: 1;
 
-  transition: 0.3s ease;
+  transition: 0.7s ease;
 }
 .we-offer-container .item .offer-effect {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   border-radius: 20px 0 20px 0;
   position: absolute;
   background: #ec5f5a;
   opacity: 0;
-  bottom: 1px;
-  left: 10px;
-  z-index: 2;
+  bottom: 100px;
+  left: -2px;
+  z-index: -1;
 }
 .offer-para {
-  font-size: large;
+  font-size: medium;
   font-weight: lighter;
   color: grey;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.shape-ring {
+  position: absolute;
+  right: 70px;
+}
+.section-one-heading {
+  font-size: 3.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #181e4b;
 }

@@ -103,7 +103,7 @@
   height: 75px;
   width: 70px !important;
 }
-.item {
+.sec-one-item {
   height: 440px;
   margin-left: 6px;
   justify-content: center;
@@ -161,10 +161,49 @@
 }
 .shape-ring {
   position: absolute;
-  right: 70px;
+  right: 290px;
+  height: 344px;
+
+  margin-top: 115px;
 }
+
 .section-one-heading {
   font-size: 3.2rem;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #181e4b;
+}
+
+.first-destination {
+  background-image: url(../images/Rectangle\ -1@2x.png);
+}
+
+.second-destination {
+  background-image: url(../images/Rec@2x.png);
+}
+
+.third-destination {
+  background-image: url(../images/Rectangle\ 14@2x.png);
+}
+.first-destination-inner {
+  background: white;
+
+  position: absolute;
+  bottom: 60px;
+  width: 81%;
+  height: 20%;
+  border-radius: 0px 0px 20px 20px;
+}
+.destination {
+  height: 581px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.destination:hover {
+  transform: scale(1.1);
 }

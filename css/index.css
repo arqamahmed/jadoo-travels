@@ -4,6 +4,10 @@
 /* components */
 @import url("./header.css");
 
+/* body */
+
+@import url("./body.css");
+
 /* media-qurey */
 /* sm */
 @import url("./media-qurey-sm.css");

@@ -1,0 +1,230 @@
+.text-secondary {
+  color: #5e6282 !important;
+}
+.section-one-heading {
+  font-size: 3.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #181e4b;
+}
+
+.offer-images {
+  height: 75px;
+  width: 70px !important;
+}
+.sec-one-item {
+  height: 440px;
+  margin-left: 6px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.first-div {
+  margin-left: 1.5vw;
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  border-radius: 20px;
+  padding: 9rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: white;
+  max-height: 200px;
+  cursor: pointer;
+}
+.card-body:hover {
+  box-shadow: 0px 100px 80px rgb(0 0 0 / 2%),
+    0px 64.8148px 46.8519px rgb(0 0 0 / 2%),
+    0px 38.5185px 25.4815px rgb(0 0 0 / 1%), 0px 20px 13px rgb(0 0 0 / 1%),
+    0px 8.14815px 6.51852px rgb(0 0 0 / 1%),
+    0px 1.85185px 3.14815px rgb(0 0 0 / 0%);
+}
+
+.we-offer-container .item:hover .offer-effect {
+  background: #ec5f5a;
+  opacity: 1;
+
+  transition: 0.7s ease;
+}
+.we-offer-container .item .offer-effect {
+  height: 100px;
+  width: 100px;
+  border-radius: 30px 0 10px 0;
+  position: absolute;
+  background: #ec5f5a;
+  opacity: 0;
+  bottom: 100px;
+  left: -2px;
+  z-index: -1;
+}
+.offer-para {
+  font-size: medium;
+  font-weight: lighter;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.shape-ring {
+  position: absolute;
+  right: 290px;
+  height: 344px;
+
+  margin-top: 115px;
+}
+
+.section-one-heading {
+  font-size: 3.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #181e4b;
+}
+
+.first-destination {
+  background-image: url(../images/Rectangle\ -1@2x.png);
+}
+
+.second-destination {
+  background-image: url(../images/Rec@2x.png);
+}
+
+.third-destination {
+  background-image: url(../images/Rectangle\ 14@2x.png);
+}
+.first-destination-inner {
+  background: white;
+
+  position: absolute;
+  bottom: 60px;
+  width: 81%;
+  height: 20%;
+  border-radius: 0px 0px 20px 20px;
+}
+.destination {
+  height: 581px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.overlay {
+  height: 390px;
+  width: 340px;
+  border-radius: 25px 25px 0px 0px;
+  margin-top: -140px;
+
+  opacity: 0;
+  transition: 0.3s ease;
+  background: #ffae00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-destination:hover .overlay {
+  opacity: 0.7;
+}
+.second-destination:hover .overlay {
+  opacity: 0.7;
+}
+.third-destination:hover .overlay {
+  opacity: 0.7;
+}
+
+.icon {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.navigation-vector {
+  width: 15px !important;
+  height: 15px !important;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.rome {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 22px;
+  position: absolute;
+  margin: 20px;
+  color: #5e6282;
+}
+.first-destination:hover .rome {
+  color: #ffae00;
+}
+.second-destination:hover .rome {
+  color: #ffae00;
+}
+.third-destination:hover .rome {
+  color: #ffae00;
+}
+.ten-days {
+  color: #5e6282;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+.cost {
+  font-size: larger;
+  color: #5e6282;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 200;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.easy {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #5e6282;
+  font-size: 22px;
+  font-weight: 600;
+}
+.section-three-heading {
+  font-size: 3.4rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #181e4b;
+  font-weight: bold;
+}
+.s3-content {
+  display: flex;
+  align-items: center;
+}
+.s3-content figure {
+  margin-right: 20px;
+  margin-bottom: 80px;
+}
+
+.s3-content h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #5e6282;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.s3-content p {
+  font-size: 17px;
+  color: #5e6282;
+  margin: 0;
+  padding: 0;
+}
+.s4-p {
+  margin-bottom: 81px;
+}
+.sec-4-image {
+  margin: 0;
+}
+.sec-4-image-size {
+  width: 900px;
+  margin-top: -211px;
+}

@@ -85,6 +85,77 @@
     font-weight: 600;
     text-align: center;
   }
+  .s3-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: -50px;
+  }
+  .head-wrapper-two h2 {
+    font-family: "Volkhov", "DM Serif Display", cursive;
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #181e4b;
+    text-align: center;
+  }
+  .head-wrapper-two h4 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: #5e6282;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .testimonials-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 400px;
+    width: 350px;
+  }
+  .testimonials-content {
+    background: white;
+    width: 310px;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 0px 23px 17px 8px rgba(204, 204, 204, 0.45);
+    -webkit-box-shadow: 0px 23px 17px 8px rgba(204, 204, 204, 0.45);
+    -moz-box-shadow: 0px 23px 17px 8px rgba(204, 204, 204, 0.45);
+  }
+  .testimonials-img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+  }
+  .testimonial-para {
+    color: #5e6282;
+    margin: 60px 25px 0 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+  }
+  .airline-parent {
+    height: 200px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .airline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 70px;
+    width: 300px;
+
+    transition: 0.5s;
+    border-radius: 20px;
+    filter: grayscale();
+
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -94,7 +165,7 @@
   }
 }
 /* laptop */
-@media (min-width: 1366px) and (max-width: 1400px) {
+@media (min-width: 1366px) and (max-width: 1399px) {
   .hero-title:before {
     font-size: 4.6rem;
     top: 4.1rem;
@@ -139,6 +210,46 @@
     align-items: center;
     margin-bottom: -50px;
   }
+  .testimonials-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+  }
+  .testimonials-content {
+    background: white;
+    width: 500px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 0px 23px 17px 8px rgba(204, 204, 204, 0.45);
+    -webkit-box-shadow: 0px 23px 17px 8px rgba(204, 204, 204, 0.45);
+    -moz-box-shadow: 0px 23px 17px 8px rgba(204, 204, 204, 0.45);
+  }
+  .airline-parent {
+    height: 200px;
+    width: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .airline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 70px;
+    width: 205px;
+
+    transition: 0.5s;
+    border-radius: 20px;
+    filter: grayscale();
+
+    cursor: pointer;
+  }
+  .axon-logo {
+    padding: 0 25px 0 25px;
+  }
 }
 
 /* xl */
@@ -170,5 +281,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .plus {
+    margin-top: -100px;
   }
 }

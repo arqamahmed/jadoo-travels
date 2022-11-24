@@ -16,7 +16,7 @@ $('.owl-one').owlCarousel({
         },
         1000:{
             items:4,
-            nav:true,
+            nav:false,
             loop:false
         }
     }
@@ -40,7 +40,53 @@ $('.owl-two').owlCarousel({
         },
         1000:{
             items:3,
-            nav:true,
+            nav:false,
+            loop:false
+        }
+    }
+})
+
+$('.owl-three').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:false,
+            loop:false
+        }
+    }
+})
+
+$('.owl-fourth').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:false,
             loop:false
         }
     }

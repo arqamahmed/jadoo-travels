@@ -156,6 +156,120 @@
 
     cursor: pointer;
   }
+  .sub-padding {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub {
+    position: relative;
+    border-radius: 20px;
+    background-color: #ffffff;
+    background-image: url(../images/subs.png);
+    height: 300px;
+    width: 90vw;
+
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+  }
+  .icon-send {
+    position: absolute;
+    left: auto;
+    top: -6%;
+    right: -1%;
+    bottom: 0%;
+    width: 60px;
+  }
+  .plus-gfx {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: -5%;
+    bottom: -13%;
+    width: 101.5px;
+  }
+  .sub-heading {
+    font-family: Poppins, sans-serif;
+    color: #5e6282;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    font-weight: 500;
+    text-align: center;
+  }
+  /* .email-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .email-box {
+    position: absolute;
+    right: 40px;
+    top: 98px;
+    background: white;
+    width: 253px;
+    height: 44px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+  }
+  .email-box img {
+    width: 18px;
+  }
+  .email-box input {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: medium;
+    font-style: WHITE;
+  }
+  .sub-button {
+    background: #ff7d68;
+    border: none;
+    position: absolute;
+    right: 40px;
+    top: 310px;
+
+    width: 253px;
+    height: 44px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  .sub-heading {
+    font-family: Poppins, sans-serif;
+    color: #5e6282;
+    font-size: 1.1rem;
+    line-height: 1.1;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0 30px 0 30px;
+  }
+  .foot_logo {
+    text-align: center;
+  }
+  .jadoo-black-logo {
+    margin-left: 60px;
+  }
+  .foot-para {
+    font-size: small;
+    text-align: center;
+    margin-right: -10px;
+    margin-top: -21px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -250,6 +364,42 @@
   .axon-logo {
     padding: 0 25px 0 25px;
   }
+  .foot-para {
+    margin-right: -70px;
+    margin-top: -21px;
+  }
+  .google-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 118px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: black;
+    border-radius: 30px;
+    color: white;
+    font-size: 10px;
+    line-height: 1;
+    margin-left: 5px;
+  }
+
+  .google-play {
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: -11px;
+    margin-left: -63px;
+    text-align: center;
+  }
+  .apple {
+    line-height: 1;
+    margin-bottom: -12px;
+    margin-right: 20px;
+  }
+}
+
+.available {
+  margin-right: -59px;
+  margin-top: 5px;
 }
 
 /* xl */
